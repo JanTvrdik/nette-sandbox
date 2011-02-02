@@ -26,10 +26,10 @@ Nette Framework requires PHP 5.2.0 and/or 5.3.0.
 Installing
 ----------
 
-Make directories 'sandbox/temp' and 'sandbox/log' writable.
+Make directories 'sandbox/sources/temp' and 'sandbox/sources/log' writable.
 
-It is CRITICAL that file 'sandbox/app/config.ini' & whole 'sandbox/app', 'sandbox/log'
-and 'sandbox/temp' directory are NOT accessible directly via a web browser! If you
+It is CRITICAL that file 'sandbox/sources/app/config.ini' & whole 'sandbox/sources'
+directory are NOT accessible directly via a web browser! If you
 don't protect this directory from direct web access, anybody will be able to see
 your sensitive data. See: http://nette.org/security-warning
 
