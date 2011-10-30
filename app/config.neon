@@ -11,9 +11,7 @@ common:
 		# zlib.output_compression: yes
 
 	services:
-		robotLoader:
-			run: true
-
+	
 		database:
 			class: Nette\Database\Connection
 			arguments: ['mysql:host=localhost;dbname=test', 'user', 'password']

@@ -23,6 +23,7 @@ Debugger::enable();
 $configurator = new Nette\Configurator;
 $configurator->container->params += $params;
 $configurator->container->params['tempDir'] = __DIR__ . '/../temp';
+$configurator->container->getService('robotLoader');
 $container = $configurator->loadConfig(__DIR__ . '/config.neon');
 
 
